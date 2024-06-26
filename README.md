@@ -15,27 +15,27 @@ To get started with this project, follow these steps:
 ```bash
 git clone https://github.com/YipKean/react-practice-project.git
 ```
-##Database migrate (Please ensure xampp/wamp is on)
+## Database migrate (Please ensure xampp/wamp is on)
 ```bash
 php artisan:migrate
 ```
-##Install Dependencies
+## Install Dependencies
 ```bash
 cd react-practice-project
 ```
 ```bash
 npm install
 ```
-##Start Vite Server
+## Start Vite Server
 ```bash
 cd React
 npm run dev
 ```
-##Start php artisan
+## Start php artisan
 ```bash
 php artisan serve
 ```
-###Features
+### Features
 - Basic React Components: Learn how to create and use basic React components.
 - State and Props: Understand the concepts of state and props in React and how to use them effectively.
 - Lifecycle Methods: Get familiar with the lifecycle methods of a React component.
