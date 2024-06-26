@@ -1,0 +1,36 @@
+Project setup
+- composer global require laravel/installer
+- laravel new chat-app
+- php artisan install:api
+
+-----------------------
+Database setup
+- go .env
+- config to mysql
+- uncomment all
+- create new database via phpmyadmin
+- put the new database's name to .env
+- php artisan make:migration create_pinned_chats_table --create=pinned_chats
+- php artisan make:model PinnedChat
+-----------------
+React setup
+- npm create vite
+- select React
+- cd react
+- npm install
+- npm run dev (run react server)
+- npm install react-router-dom
+- refer /React/Views and /React/router.jsx
+
+
+------------------
+apiResource
+
+- auto route CRUD
+- Route::apiResource('/users', UserController::class);
+- set public static $wrap = false; in userResource
+
+Set up apiResource
+- php artisan make:controller Api/AccountController --api
+- php artisan make:resource AccountResource
+

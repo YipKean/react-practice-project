@@ -1,0 +1,2 @@
+- composer require nuwave/lighthouse
+- php artisan vendor:publish --provider="Nuwave\Lighthouse\LighthouseServiceProvider"
