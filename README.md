@@ -4,7 +4,7 @@ Welcome to the React Practice Project! This project is designed to help me pract
 
 ## Acknowledgements
 
-This repository is directly reference from https://www.youtube.com/watch?v=qJq9ZMB2Was
+This repository is directly referenced from https://www.youtube.com/watch?v=qJq9ZMB2Was
 Really good reference if you are looking for something to revise React/Laravel
 
 ## Getting Started
